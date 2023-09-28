@@ -4,15 +4,23 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.mellysa</groupId>
-    <artifactId>marsrover</artifactId>
-    <version>1.0-SNAPSHOT</version>
-
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.5.4</version> <!-- Replace with the latest Spring Boot version -->
     </parent>
+
+    <groupId>com.mellysa</groupId>
+    <artifactId>marsrover</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>marsrover application</name>
+    <description>Parent builder for all application modules</description>
+
+    <modules>
+        <module>roverCommandCentre</module>
+        <module>roverAnalyzer</module>
+    </modules>
 
     <dependencies>
         <!-- Add the Spring Boot starter dependency -->
@@ -32,6 +40,18 @@
                     <source>1.8</source> <!-- Set your Java version -->
                     <target>1.8</target> <!-- Set your Java version -->
                 </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>2.5.5</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>

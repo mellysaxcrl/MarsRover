@@ -15,3 +15,4 @@ Bonus:
 
 Adv:
 - write a reactJs for this 
+- use logs (log4j or sl4j or logback) instead of println
