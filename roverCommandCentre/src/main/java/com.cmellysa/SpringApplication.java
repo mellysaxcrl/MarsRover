@@ -10,7 +10,7 @@ public class SpringApplication {
             System.out.println("Invalid input! Number of rovers and instructions don't match!");
         } else {
             int num_rovers = args.length / 2;
-
+            System.out.println("yo");
         }
     }
 }
