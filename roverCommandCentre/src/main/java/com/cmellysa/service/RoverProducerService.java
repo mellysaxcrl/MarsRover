@@ -1,5 +1,6 @@
-package com.cmellysa;
+package com.cmellysa.service;
 
+import com.cmellysa.dto.RoverData;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;

@@ -1,5 +1,6 @@
-package com.cmellysa;
+package com.cmellysa.service;
 
+import com.cmellysa.dto.RoverData;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

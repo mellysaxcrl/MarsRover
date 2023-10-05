@@ -1,4 +1,4 @@
-package com.mellysa;
+package com.mellysa.dynamicPartitioning;
 
 import org.apache.kafka.clients.admin.AdminClientConfig;
 import org.springframework.context.annotation.Bean;

@@ -1,4 +1,4 @@
-package com.cmellysa;
+package com.cmellysa.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

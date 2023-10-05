@@ -1,3 +1,4 @@
-com/cmellysa/CommandCentre.class
-com/cmellysa/RoverProducerService.class
-com/cmellysa/RoverData.class
+com/cmellysa/service/RoverProducerService.class
+com/cmellysa/dto/RoverData.class
+com/cmellysa/service/CommandCentre.class
+com/cmellysa/Application.class

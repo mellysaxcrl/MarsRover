@@ -1,4 +1,4 @@
-package com.mellysa;
+package com.mellysa.dynamicPartitioning;
 
 import org.apache.kafka.clients.admin.AdminClient;
 import org.apache.kafka.clients.admin.DescribeTopicsResult;

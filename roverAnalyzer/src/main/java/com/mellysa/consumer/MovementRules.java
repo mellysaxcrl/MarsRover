@@ -1,4 +1,6 @@
-package com.mellysa;
+package com.mellysa.consumer;
+
+import com.mellysa.consumer.Position;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -16,9 +18,9 @@ public class MovementRules {
             int newX = x;
             int newY = y;
             if (dir == 'N') newY += 1;
-            if (dir == 'S') newY -= 1;
-            if (dir == 'E') newX += 1;
-            if (dir == 'W') newX -= 1;
+            else if (dir == 'S') newY -= 1;
+            else if (dir == 'E') newX += 1;
+            else if (dir == 'W') newX -= 1;
             return new Position(newX, newY, dir);
         });
 
@@ -26,9 +28,9 @@ public class MovementRules {
             int newX = x;
             int newY = y;
             if (dir == 'N') newY -= 1;
-            if (dir == 'S') newY += 1;
-            if (dir == 'E') newX -= 1;
-            if (dir == 'W') newX += 1;
+            else if (dir == 'S') newY += 1;
+            else if (dir == 'E') newX -= 1;
+            else if (dir == 'W') newX += 1;
             return new Position(newX, newY, dir);
         });
 

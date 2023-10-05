@@ -1,4 +1,4 @@
-package com.mellysa;
+package com.mellysa.consumer;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

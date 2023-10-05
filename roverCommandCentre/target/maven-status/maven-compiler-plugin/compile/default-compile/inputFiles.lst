@@ -1,2 +1,4 @@
-/Users/mellysa/Documents/JpMorgan/MarsRover/roverCommandCentre/src/main/java/com.cmellysa/RoverController.java
-/Users/mellysa/Documents/JpMorgan/MarsRover/roverCommandCentre/src/main/java/com.cmellysa/SpringApplication.java
+/Users/mellysa/Documents/JpMorgan/MarsRover/roverCommandCentre/src/main/java/com/cmellysa/Application.java
+/Users/mellysa/Documents/JpMorgan/MarsRover/roverCommandCentre/src/main/java/com/cmellysa/service/CommandCentre.java
+/Users/mellysa/Documents/JpMorgan/MarsRover/roverCommandCentre/src/main/java/com/cmellysa/service/RoverProducerService.java
+/Users/mellysa/Documents/JpMorgan/MarsRover/roverCommandCentre/src/main/java/com/cmellysa/dto/RoverData.java
